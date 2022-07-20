@@ -1,0 +1,177 @@
+{
+    "user": {
+        "userRatings": {
+            "user_0": ["rating-0"]
+        },
+        "userReports": {
+            "user_1": ["report-0"]
+        },
+        "userUniAuthData": {
+            "user-0": {
+                "t": "2020-06-21 09:41:31", // mostRecentAuthTime
+                "s": "2020-06-21 09:41:31", // mostRecentSuccessfulAuthTime
+                "c": "auth-context-0", // primaryAuthContextId
+                "p": ["auth-context-0", "auth-context-1"] // pastAuthContextIds
+            }
+        }
+    },
+    "uniUser": {
+        "uniUserConsent": {
+            "1830744": {
+                "t": true, // agreed to terms and conditions
+                "p": true, // agreed to privacy policy
+                "s": true // subscribed to mailchimp
+            }
+        },
+        "uniUserBasicData": {
+            "1830744": {
+                "f": "Omar", // firstName
+                "l": "Tanner", // lastName
+                "e": "1830744@warwick.ac.uk", // email
+                "d": "CS", // departmentId
+                "r": "G500", // routeId
+                "m": true, // gotModuleData
+                "a": true // anonymous
+            }
+        },
+        "uniUserAuthData": {
+            "1830744": {
+                "t": "2020-06-21 09:41:31", // mostRecentAuthTime
+                "s": "2020-06-21 09:41:31", // mostRecentSuccessfulAuthTime
+                "c": { // primaryAuthContextIds (uni user may be associated to multiple firebase users). this is the primary auth context for each linked user
+                    "user-0": "auth-context-0",
+                    "user-1": "auth-context-2"
+                },
+                "l": "user-0", // latest active firebase user id
+                "p": ["auth-context-0", "auth-context-1"] // pastAuthContextIds
+            }
+        },
+        "uniUserModuleRegistrations": { // note when updating module registrations for a user, insert new registration objects into module-registrations and remove object here, while also removing the module-registration objects from module-registrations (since voided)
+            "1830744": {
+                "t": "2020-06-21 09:45:31", // time
+                "m": { // moduleCodeRegistrations
+                    "CS118": ["module-registration-0", "module-registration-1"] // e.g if taken module twice!?
+                },
+                "y": { // academicYearRegistrations
+                    "19/20": ["module-registration-0"]
+                },
+                "r": ["module-registration-0", "module-registration-1"] // registrations
+            }
+        },
+        "uniUserRatings": {
+            "1830744": ["rating-0"]
+        },
+        "uniUserReports": {
+            "1830744": ["report-0"]
+        }
+    },
+    "module": {
+        "moduleBasicData": { // reduced https://warwick.ac.uk/services/its/servicessupport/web/tabula/api/admin/module-object
+            "CS118": {
+                "n": "Programming", // name
+                "d": "CS", // departmentCode
+                "a": true // active
+            }
+        },
+        "moduleRatings": {
+            "CS118": ["rating-0"]
+        }
+    },
+    "course": {
+        "courseData": {
+            "CS118": {
+                "20/21": {
+                    "c": 15 // number of credits
+                    "v":  true // visible
+                    "l": { // leader
+                        "u": 1830744, // uni id
+                        "n": "Omar Tanner" // name
+                    }
+                }
+            }
+        }
+    },
+    "moduleRegistration": {
+        "moduleRegistrationBasicData": {
+            "module-registration-0": { // reduced "https://warwick.ac.uk/services/its/servicessupport/web/tabula/api/member/module-registration-object"
+                "u": "1830744", // uniId
+                "m": "CS118", // moduleCode
+                "y": "19/20", // academicYear <start year>-<end year>
+                "p": "81.0", // mark may be null
+                "g": 1 // grade // 1=I, 2=IIi, 3=IIii, 4=III, 5=F
+            }
+        }
+    },
+    // "route": {
+    //     "routeBasicData": {
+    //         "G500": {
+    //             "name": "Computer Science",
+    //             "degreeType": "Undergraduate"
+    //         }
+    //     },
+    //     "routeRatings": {
+    //         "G500": ["rating-0"]
+    //     }
+    // },
+    "department": {
+        "departmentBasicData": {
+            "CS": { // reduced https://warwick.ac.uk/services/its/servicessupport/web/tabula/api/admin/department-object
+                "n": "Computer Science" // name
+            }
+        },
+        "departmentRatings": {
+            "CS": ["rating-0"]
+        },
+        "departmentModules": {
+            "CS": ["CS118"]
+        },
+        "departmentRoutes": {
+            "CS": ["G500"]
+        }
+    },
+    "rating": {
+        "ratingBasicData": {
+            "rating-0": {
+                "c": 1, // typeId/category
+                "e": true, // exists
+                "t": "2020-06-21 09:40:31", // time
+                "f": "user-0", // firebase-user-id
+                "u": "1830744", // uni-user-id
+                "v": 3, // value - for like and dislike, it's 1 for like and 2 for dislike
+                "m": "CS118", // moduleCode
+                "y": "19/20", // academicYear <start year>-<end year>
+                "g": 1, // grade 1=I, 2=IIi, 3=IIii, 4=III, 5=F
+                "p": "rating-1" // target ratingId (comment or suggestion, for a recursive rating e.g. a like/dislike)
+            }
+        },
+        "ratingReports": {
+            "rating-0": ["report-0"]
+        }
+    },
+    "report": {
+        "reportBasicData": {
+            "report-0": {
+                "r": "rating-0", // ratingId
+                "m": "FAKE HHHH", // reason/message
+                "t": "2020-06-21 09:40:31", // time
+                "u": "1830744" // uni-id
+            }
+        }
+    },
+    "auth": {
+        "temporaryTokenSecret": {
+            "06109d89-ff0a-4a74-9efc-64fbbacf6ee9": "bc72bad6-e787-436c-bedc-ab0ec2f3858e" 
+        },
+        "secretAccessToken": {
+            "bc72bad6-e787-436c-bedc-ab0ec2f3858e": "scary-secret-access-token-dniufnbsd-54hunsd-djnfi"
+        },
+        "context": {
+            "auth-context-0": {
+                "f": "user-0", // userId/firebaseUserId
+                "u": "1830744", // uniId
+                "t": "2020-06-21 09:45:31", // time
+                "s": true // success
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+package me.omartanner.modulepal.api.responses.body.auth;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class OAuthRevokeAccessTokensAndObtainNewResponseBody {
+    private String newTokenId;
+}

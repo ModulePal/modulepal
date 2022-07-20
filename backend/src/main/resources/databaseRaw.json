@@ -1,0 +1,144 @@
+{
+    "user": {
+        "userBasicData": {
+            "user-0": {
+                "a": false 
+            }
+        },
+        "userRatings": {
+            "user-0": ["rating-0"]
+        },
+        "userReports": {
+            "user-0": ["report-0"]
+        },
+        "userUniAuthData": {
+            "user-0": {
+                "t": "2020-06-21 09:41:31", 
+                "s": "2020-06-21 09:41:31", 
+                "c": "auth-context-0", 
+                "p": ["auth-context-0", "auth-context-1"] 
+            }
+        }
+    },
+    "uniUser": {
+        "uniUserBasicData": {
+            "1830744": {
+                "f": "Omar", 
+                "l": "Tanner", 
+                "e": "1830744@warwick.ac.uk", 
+                "d": "CS", 
+                "r": "G500", 
+                "m": true
+            }
+        },
+        "uniUserAuthData": {
+            "1830744": {
+                "t": "2020-06-21 09:41:31", 
+                "s": "2020-06-21 09:41:31", 
+                "c": "auth-context-0", 
+                "p": ["auth-context-0", "auth-context-1"] 
+            }
+        },
+        "uniUserModuleRegistrations": { 
+            "1830744": {
+                "m": { 
+                    "CS118": ["module-registration-0", "module-registration-1"] 
+                },
+                "y": { 
+                    "19/20": ["module-registration-0"]
+                },
+                "r": ["module-registration-0", "module-registration-1"] 
+            }
+        }
+    },
+    "module": {
+        "moduleBasicData": { 
+            "CS118": {
+                "n": "Programming", 
+                "d": "CS", 
+                "a": true 
+            }
+        },
+        "moduleRatings": {
+            "CS118": ["rating-0"]
+        }
+    },
+    "moduleRegistration": {
+        "moduleRegistrationBasicData": {
+            "module-registration-0": { 
+                "u": "1830744", 
+                "m": "CS118", 
+                "y": "19/20", 
+                "p": "81.0", 
+                "g": 1 
+            }
+        }
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    "department": {
+        "departmentBasicData": {
+            "CS": { 
+                "n": "Computer Science" 
+            }
+        },
+        "departmentRatings": {
+            "CS": ["rating-0"]
+        },
+        "departmentModules": {
+            "CS": ["CS118"]
+        },
+        "departmentRoutes": {
+            "CS": ["G500"]
+        }
+    },
+    "rating": {
+        "ratingBasicData": {
+            "rating-0": {
+                "c": 1, 
+                "e": true, 
+                "t": "2020-06-21 09:40:31", 
+                "u": "user-0", 
+                "v": 3, 
+                "m": "CS118", 
+                "y": "19/20", 
+                "g": 1 
+            }
+        },
+        "ratingReports": {
+            "rating-0": ["report-0"]
+        }
+    },
+    "report": {
+        "reportBasicData": {
+            "report-0": {
+                "r": "rating-0", 
+                "m": "FAKE HHHH", 
+                "t": "2020-06-21 09:40:31", 
+                "u": "user-0" 
+            }
+        }
+    },
+    "auth": {
+        "temporaryTokenSecret": {
+            "06109d89-ff0a-4a74-9efc-64fbbacf6ee9": "bc72bad6-e787-436c-bedc-ab0ec2f3858e" 
+        },
+        "context": {
+            "auth-context-0": {
+                "f": "user-0", 
+                "u": "1830744", 
+                "t": "2020-06-21 09:45:31", 
+                "s": true 
+            }
+        }
+    }
+}
