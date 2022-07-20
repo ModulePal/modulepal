@@ -26,10 +26,10 @@ The following steps will run the frontend either locally or via Firebase Hosting
 
 1. In your Firebase Project, ensure that Firebase Authentication is setup with only the Anonymous sign-in-method.
 1. If deploying via Firebase Hosting, ensure that you have setup Firebase Hosting (but do not run the requested commands), and install the [Firebase CLI](https://firebase.google.com/docs/cli#install_the_firebase_cli). After, Run `firebase login` to login to the Firebase CLI, and login to the account which contains your Firebase Project.
-1. Open [src/services/rest/rest.ts](frontend/src/services/rest/rest.ts) and enter your backend's base URL (before `/api`, e.g. `https://modulepal-backend.com`) into `baseUrl`, and the to-be-deployed frontend's base URL (e.g. `http://localhost:3000` if locally) into `frontendBaseUrl`.
-1. Open [.firebaserc](frontend/.firebaserc) and enter your Firebase Project ID under `projects.default`.
-1. Open [firebase.json](frontend/firebase.json) and enter your Firebase Project ID under `hosting.site`.
-1. Open [src/services/firebase/firebase.ts](frontend/src/services/firebase/firebase.ts) and modify `firebaseConfig` with your [Firebase Config object](https://firebase.google.com/docs/web/learn-more#config-object).
+1. Open [src/services/rest/rest.ts](/frontend/src/services/rest/rest.ts) and enter your backend's base URL (before `/api`, e.g. `https://modulepal-backend.com`) into `baseUrl`, and the to-be-deployed frontend's base URL (e.g. `http://localhost:3000` if locally) into `frontendBaseUrl`.
+1. Open [.firebaserc](/frontend/.firebaserc) and enter your Firebase Project ID under `projects.default`.
+1. Open [firebase.json](/frontend/firebase.json) and enter your Firebase Project ID under `hosting.site`.
+1. Open [src/services/firebase/firebase.ts](/frontend/src/services/firebase/firebase.ts) and modify `firebaseConfig` with your [Firebase Config object](https://firebase.google.com/docs/web/learn-more#config-object).
 1. Run `yarn` to install the dependencies. This will take a while.
 1. If deploying locally for development, run `yarn start`. If deploying via Firebase Hosting, run `yarn build` followed by `firebase deploy --project <projectid>` where `<projectid>` is your Firebase Project ID.
 1. :rocket:

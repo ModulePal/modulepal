@@ -21,7 +21,7 @@ This directory contains the source code for the backend of ModulePal. We assume 
   
   The backend is entirely free to run using these free services.
   
-  Generally, the application read and writes to the Firebase Realtime Database, and caches data in an in-memory H2 database. Metrics are maintained in-memory in a continuous fashion (avoiding recomputation) with a nested hashmap data structure. In the Firebase Realtime Database, static (non-changing) data (e.g. metadata for modules, departments, etc) is stored under the `staticDatabase` node. Changing data (relating to users, ratings, etc.) is stored under `mainDatabase`. A university user is tied to an anonymous Firebase Authentication session, which maintains the login state on the frontend and the association is managed on the backend.
+  Generally, the application read and writes to the NoSQL Firebase Realtime Database, and caches data in an in-memory SQL H2 database. Metrics are maintained in-memory in a continuous fashion (avoiding recomputation) with a nested hashmap data structure. In the Firebase Realtime Database, static (non-changing) data (e.g. metadata for modules, departments, etc) is stored under the `staticDatabase` node. Changing data (relating to users, ratings, etc.) is stored under `mainDatabase`. A university user is tied to an anonymous Firebase Authentication session, which maintains the login state on the frontend and the association is managed on the backend.
 
   Originally the backend was hosted using Tomcat on a Linux VPS, however we recommend Heroku for ease of deployment and management (also free for basic use).
   
@@ -42,7 +42,7 @@ This directory contains the source code for the backend of ModulePal. We assume 
   
   1. Copy the code into a local **private** git repository.
   1. Configure your IDE such that there are no errors. You may need to the use the plugin registry in IntelliJ IDEA, by going to Settings -> Build, Execution, Deployment -> Build Tools -> Maven -> Check 'Use plugin registry'.
-  1. [Generate the private key for your Firebase service account](https://firebase.google.com/docs/admin/setup#initialize-sdk) and copy the file to the location `src/main/resources/firebase-service-account.json`. 
+  1. [Generate the private key for your Firebase service account](https://firebase.google.com/docs/admin/setup#initialize-sdk) and copy the file to the location [src/main/resources/firebase-service-account.json](/backend/src/main/resources/firebase-service-account.json). 
   1. Set the environment variables as listed in the below section, either locally or in your Heroku app if deploying to Heroku. In your Heroku app, go to the Settings tab and find Config Vars. Click 'Reveal Config Vars' and enter your environment variables and their values.
   1. Compile the application by running `mvn compile`. Do not proceed until this succeeds.
   1. Run locally via Maven (note, skip tests) or by running `java -jar target/dependency/webapp-runner.jar target/*.war` in this directory.
