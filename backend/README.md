@@ -10,7 +10,7 @@ This directory contains the source code for the backend of ModulePal. We assume 
   * [Maven](https://maven.apache.org/)
   * [H2 Database Engine](https://www.h2database.com/html/main.html) 
   * [Hibernate ORM](https://hibernate.org/orm/)
-  * [Firebase Authentication](https://firebase.google.com/docs/auth)
+  * [Google Firebase Authentication](https://firebase.google.com/docs/auth)
   * [Google Firebase Realtime Database](https://firebase.google.com/docs/database)
   * [Warwick Tabula API](https://warwick.ac.uk/services/its/servicessupport/web/tabula/api/)
   * [Warwick OAuth](https://warwick.ac.uk/services/its/servicessupport/web/sign-on/help/oauth/apis)
