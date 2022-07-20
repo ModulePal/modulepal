@@ -1,6 +1,6 @@
 ## Backend
 
-This directory contains the source code for the backend of ModulePal.
+This directory contains the source code for the backend of ModulePal. We assume you are comfortable with the technologies used by the project.
 
 ### Tech stack
 
@@ -17,11 +17,13 @@ This directory contains the source code for the backend of ModulePal.
   * [Heroku](https://www.heroku.com/)
   * [Mailchimp](https://mailchimp.com)
   
-  and various libraries which can be found in the pom.xml.
+  ... and various libraries which can be found in the pom.xml.
   
   The backend is entirely free to run using these free services.
   
-  Generally, the application read and writes to the Firebase Realtime Database, and caches data in an in-memory H2 database. Metrics are maintained in-memory in a continuous fashion (avoiding recomputation) with a nested hashmap data structure.
+  Generally, the application read and writes to the Firebase Realtime Database, and caches data in an in-memory H2 database. Metrics are maintained in-memory in a continuous fashion (avoiding recomputation) with a nested hashmap data structure. In the Firebase Realtime Database, static (non-changing) data (e.g. metadata for modules, departments, etc) is stored under the `staticDatabase` node. Changing data (relating to users, ratings, etc.) is stored under `mainDatabase`.
+
+  Originally the backend was hosted using Tomcat on a Linux VPS, however we recommend Heroku for ease of deployment and management (also free for basic use).
   
   ### Setup
   
@@ -48,8 +50,7 @@ This directory contains the source code for the backend of ModulePal.
   1. Commit your changes to git: `git init` -> `git add .` -> `git commit -m "Ready to deploy"`.
   1. Upload the app on Heroku. If you do not have an existing Heroku app then run `heroku create`, otherwise run `heroku git:remote -a <app>` where `<app>` is your app's ID.
   1. Deploy the app on Heroku. Run `git push heroku master`.
- 
-  
+  1. If this is your first time running the backend, populate your Firebase Realtime Database with the necessary data from the Tabula API (modules, departments, etc.) under the `staticDatabase` node by making a POST request to the `/admin/database/importRealData` endpoint.  
   
   ### Environment variables
   
