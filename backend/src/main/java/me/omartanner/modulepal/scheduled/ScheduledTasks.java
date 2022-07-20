@@ -1,8 +1,8 @@
 package me.omartanner.modulepal.scheduled;
 
 import lombok.extern.slf4j.Slf4j;
+import me.omartanner.modulepal.Constants;
 import me.omartanner.modulepal.HelperComponent;
-import me.omartanner.modulepal.config.constants.Constants;
 import me.omartanner.modulepal.data.firebase.db.FirebaseDbApi;
 import me.omartanner.modulepal.data.firebase.db.FirebaseDbException;
 import me.omartanner.modulepal.data.h2.H2Manager;
@@ -11,8 +11,6 @@ import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-
-import java.io.IOException;
 
 @Component
 @Slf4j

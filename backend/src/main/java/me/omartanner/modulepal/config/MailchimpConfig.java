@@ -1,7 +1,7 @@
 package me.omartanner.modulepal.config;
 
 import com.ecwid.maleorang.MailchimpClient;
-import me.omartanner.modulepal.config.constants.Constants;
+import me.omartanner.modulepal.Constants;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

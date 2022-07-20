@@ -1,6 +1,6 @@
 package me.omartanner.modulepal.api.auth;
 
-import me.omartanner.modulepal.config.constants.Constants;
+import me.omartanner.modulepal.Constants;
 import me.omartanner.modulepal.data.firebase.db.FirebaseDbApi;
 import me.omartanner.modulepal.data.firebase.db.FirebaseDbException;
 import me.omartanner.modulepal.data.firebase.db.objects.nodes.auth.AuthContext;

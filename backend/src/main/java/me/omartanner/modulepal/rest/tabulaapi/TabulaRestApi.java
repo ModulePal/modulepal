@@ -2,7 +2,6 @@ package me.omartanner.modulepal.rest.tabulaapi;
 
 import me.omartanner.modulepal.rest.ApiResponse;
 import me.omartanner.modulepal.rest.tabulaapi.response.*;
-import okhttp3.OkHttpClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

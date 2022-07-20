@@ -1,7 +1,6 @@
 package me.omartanner.modulepal;
 
 import lombok.extern.slf4j.Slf4j;
-import me.omartanner.modulepal.config.constants.Constants;
 import me.omartanner.modulepal.data.firebase.db.FirebaseDbApi;
 import me.omartanner.modulepal.data.firebase.db.FirebaseDbException;
 import me.omartanner.modulepal.data.h2.H2Manager;

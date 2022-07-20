@@ -1,6 +1,6 @@
 package me.omartanner.modulepal.config;
 
-import me.omartanner.modulepal.config.constants.Constants;
+import me.omartanner.modulepal.Constants;
 import me.omartanner.modulepal.rest.tabulaapi.ExternalUserTabulaRequestHandler;
 import okhttp3.OkHttpClient;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -4,6 +4,7 @@ package me.omartanner.modulepal.api.controllers;
 import com.google.firebase.auth.FirebaseAuthException;
 import com.google.firebase.auth.FirebaseToken;
 import lombok.extern.slf4j.Slf4j;
+import me.omartanner.modulepal.Constants;
 import me.omartanner.modulepal.api.auth.UniUserModuleRegistrationDeleter;
 import me.omartanner.modulepal.api.auth.error.UniUserModuleRegistrationDeleterError;
 import me.omartanner.modulepal.api.dto.DepartmentBasicData;
@@ -16,7 +17,6 @@ import me.omartanner.modulepal.api.responses.body.user.GetPrimaryUniUserModuleRe
 import me.omartanner.modulepal.api.responses.body.user.UserGetAnonymousResponseBody;
 import me.omartanner.modulepal.api.responses.body.user.UserGetInvalidatedRatingsResponseBody;
 import me.omartanner.modulepal.api.responses.error.*;
-import me.omartanner.modulepal.config.constants.Constants;
 import me.omartanner.modulepal.data.aggregates.Aggregates;
 import me.omartanner.modulepal.data.firebase.auth.FirebaseAuthApi;
 import me.omartanner.modulepal.data.firebase.db.FirebaseDbApi;
@@ -36,7 +36,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping(path="/api/user")
-@CrossOrigin(origins = {Constants.PRODUCTION_CORS ? "https://modulepal.com" : "*", Constants.PRODUCTION_CORS ? "https://stg.modulepal.com" : ""})
+@CrossOrigin(origins = {"*"}) // ADD YOUR OWN ORIGINS IF CORS REQUIRED
 @Validated
 @Slf4j
 public class UserController {

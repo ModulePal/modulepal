@@ -4,9 +4,6 @@ import com.google.gson.reflect.TypeToken;
 import me.omartanner.modulepal.rest.ApiResponse;
 import me.omartanner.modulepal.rest.coursesapi.objects.ModuleFullData;
 import me.omartanner.modulepal.rest.coursesapi.objects.ModuleMetadata;
-import me.omartanner.modulepal.rest.coursesapi.response.ModulePageResponse;
-import me.omartanner.modulepal.rest.tabulaapi.ExternalUserTabulaRequestHandler;
-import me.omartanner.modulepal.rest.tabulaapi.response.AllDepartmentsResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

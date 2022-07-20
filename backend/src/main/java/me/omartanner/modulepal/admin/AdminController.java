@@ -1,19 +1,14 @@
 package me.omartanner.modulepal.admin;
 
 import com.google.firebase.auth.FirebaseAuthException;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.j2objc.annotations.AutoreleasePool;
 import lombok.extern.slf4j.Slf4j;
 import me.omartanner.modulepal.HelperComponent;
 import me.omartanner.modulepal.data.firebase.auth.FirebaseAuthApi;
 import me.omartanner.modulepal.data.firebase.db.FirebaseDbApi;
 import me.omartanner.modulepal.data.firebase.db.FirebaseDbException;
 import me.omartanner.modulepal.data.h2.H2Manager;
-import me.omartanner.modulepal.data.h2.repository.DepartmentRepository;
-import me.omartanner.modulepal.data.h2.repository.ModuleRepository;
 import me.omartanner.modulepal.helper.error.ApiRequestFailedException;
 import me.omartanner.modulepal.helper.error.ErrorLogging;
-import me.omartanner.modulepal.rest.tabulaapi.TabulaRestApi;
 import org.json.simple.parser.ParseException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

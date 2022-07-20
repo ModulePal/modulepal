@@ -1,7 +1,7 @@
 package me.omartanner.modulepal.data.h2.model;
 
 import lombok.NoArgsConstructor;
-import me.omartanner.modulepal.config.constants.Constants;
+import me.omartanner.modulepal.Constants;
 import me.omartanner.modulepal.data.ratingtype.LikeRatingConstants;
 import me.omartanner.modulepal.data.ratingtype.RatingType;
 import org.springframework.transaction.annotation.Transactional;

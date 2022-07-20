@@ -7,9 +7,6 @@ import oauth1.exception.TokenMapException;
 import oauth1.strategy.TokenMapStrategy;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
 public class OAuth1Config {
     public static OAuth1WithCallback getOAuth1WithCallback(String callbackUrl, FirebaseDbApi firebaseDbApi) {

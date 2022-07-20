@@ -1,12 +1,12 @@
 package me.omartanner.modulepal.api.controllers;
 
 import lombok.extern.slf4j.Slf4j;
+import me.omartanner.modulepal.Constants;
 import me.omartanner.modulepal.api.dto.*;
 import me.omartanner.modulepal.api.firebaseauth.FirebaseIdTokenChecker;
 import me.omartanner.modulepal.api.responses.Response;
 import me.omartanner.modulepal.api.responses.body.module.*;
 import me.omartanner.modulepal.api.responses.error.*;
-import me.omartanner.modulepal.config.constants.Constants;
 import me.omartanner.modulepal.data.aggregates.Aggregates;
 import me.omartanner.modulepal.data.firebase.db.FirebaseDbApi;
 import me.omartanner.modulepal.data.firebase.db.FirebaseDbException;
@@ -33,7 +33,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping(path="/api/module")
-@CrossOrigin(origins = {Constants.PRODUCTION_CORS ? "https://modulepal.com" : "*", Constants.PRODUCTION_CORS ? "https://stg.modulepal.com" : ""})
+@CrossOrigin(origins = {"*"}) // ADD YOUR OWN ORIGINS IF CORS REQUIRED
 @Validated
 @Slf4j
 public class ModuleController {

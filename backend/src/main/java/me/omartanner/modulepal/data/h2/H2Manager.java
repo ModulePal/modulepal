@@ -1,7 +1,7 @@
 package me.omartanner.modulepal.data.h2;
 
 import lombok.extern.slf4j.Slf4j;
-import me.omartanner.modulepal.config.constants.Constants;
+import me.omartanner.modulepal.Constants;
 import me.omartanner.modulepal.data.aggregates.Aggregates;
 import me.omartanner.modulepal.data.firebase.db.FirebaseDbApi;
 import me.omartanner.modulepal.data.firebase.db.FirebaseDbException;
@@ -13,8 +13,8 @@ import me.omartanner.modulepal.data.firebase.db.objects.nodes.moduleregistration
 import me.omartanner.modulepal.data.firebase.db.objects.nodes.rating.RatingBasicData;
 import me.omartanner.modulepal.data.firebase.db.objects.nodes.uniuser.UniUserBasicData;
 import me.omartanner.modulepal.data.grade.Grade;
-import me.omartanner.modulepal.data.h2.model.*;
 import me.omartanner.modulepal.data.h2.model.Module;
+import me.omartanner.modulepal.data.h2.model.*;
 import me.omartanner.modulepal.data.h2.repository.*;
 import me.omartanner.modulepal.data.h2.repository.projection.AcademicYearProjection;
 import me.omartanner.modulepal.data.ratingtype.LikeRatingConstants;

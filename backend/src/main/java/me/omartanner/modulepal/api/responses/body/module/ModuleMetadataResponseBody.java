@@ -6,7 +6,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import me.omartanner.modulepal.api.dto.ModuleBasicData;
 import me.omartanner.modulepal.api.dto.ModuleLeader;
-import me.omartanner.modulepal.api.dto.ModuleReviewCount;
 
 import java.util.List;
 

@@ -9,6 +9,7 @@ import com.google.api.client.auth.oauth.OAuthParameters;
 import com.google.api.client.http.HttpResponse;
 import com.google.firebase.auth.FirebaseAuthException;
 import lombok.extern.slf4j.Slf4j;
+import me.omartanner.modulepal.Constants;
 import me.omartanner.modulepal.api.auth.AuthCooldownChecker;
 import me.omartanner.modulepal.api.auth.MemberDataStorer;
 import me.omartanner.modulepal.api.auth.UniUserModuleRegistrationDeleter;
@@ -26,7 +27,6 @@ import me.omartanner.modulepal.api.responses.body.auth.OAuthCheckResponseBody;
 import me.omartanner.modulepal.api.responses.body.auth.OAuthUnlinkResponseBody;
 import me.omartanner.modulepal.api.responses.error.*;
 import me.omartanner.modulepal.config.OAuth1Config;
-import me.omartanner.modulepal.config.constants.Constants;
 import me.omartanner.modulepal.data.firebase.auth.FirebaseAuthApi;
 import me.omartanner.modulepal.data.firebase.db.FirebaseDbApi;
 import me.omartanner.modulepal.data.firebase.db.FirebaseDbException;
@@ -64,7 +64,7 @@ import java.util.regex.Pattern;
 
 @RestController
 @RequestMapping(path="/api/auth")
-@CrossOrigin(origins = {Constants.PRODUCTION_CORS ? "https://modulepal.com" : "*", Constants.PRODUCTION_CORS ? "https://stg.modulepal.com" : ""})
+@CrossOrigin(origins = {"*"}) // ADD YOUR OWN ORIGINS IF CORS REQUIRED
 @Validated
 @Slf4j
 public class AuthController {

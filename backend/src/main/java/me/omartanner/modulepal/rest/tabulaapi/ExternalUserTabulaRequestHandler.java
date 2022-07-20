@@ -1,9 +1,8 @@
 package me.omartanner.modulepal.rest.tabulaapi;
 
-import me.omartanner.modulepal.helper.json.Deserializer;
 import me.omartanner.modulepal.rest.ApiResponse;
 import me.omartanner.modulepal.rest.RequestHandler;
-import okhttp3.*;
+import okhttp3.OkHttpClient;
 
 import java.io.IOException;
 import java.util.Collections;

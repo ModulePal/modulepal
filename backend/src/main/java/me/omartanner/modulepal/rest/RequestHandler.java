@@ -3,7 +3,6 @@ package me.omartanner.modulepal.rest;
 import me.omartanner.modulepal.helper.json.Deserializer;
 import okhttp3.*;
 
-import javax.sound.midi.SysexMessage;
 import java.io.IOException;
 import java.lang.reflect.Type;
 import java.util.Map;

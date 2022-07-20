@@ -10,7 +10,6 @@ import me.omartanner.modulepal.api.responses.body.department.DepartmentBasicData
 import me.omartanner.modulepal.api.responses.body.department.DepartmentSearchResponseBody;
 import me.omartanner.modulepal.api.responses.error.DataNotExistsResponse;
 import me.omartanner.modulepal.api.responses.error.InvalidQueryResponse;
-import me.omartanner.modulepal.config.constants.Constants;
 import me.omartanner.modulepal.data.h2.H2Manager;
 import me.omartanner.modulepal.data.h2.model.Department;
 import me.omartanner.modulepal.helper.error.ErrorLogging;
@@ -26,7 +25,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(path="/api/department")
-@CrossOrigin(origins = {Constants.PRODUCTION_CORS ? "https://modulepal.com" : "*", Constants.PRODUCTION_CORS ? "https://stg.modulepal.com" : ""})
+@CrossOrigin(origins = {"*"}) // ADD YOUR OWN ORIGINS IF CORS REQUIRED
 @Validated
 @Slf4j
 public class DepartmentController {

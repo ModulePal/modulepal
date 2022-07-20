@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.ToString;
-import me.omartanner.modulepal.config.constants.Constants;
+import me.omartanner.modulepal.Constants;
 import me.omartanner.modulepal.data.academicyear.AcademicYearParser;
 import me.omartanner.modulepal.data.ratingtype.RatingType;
 

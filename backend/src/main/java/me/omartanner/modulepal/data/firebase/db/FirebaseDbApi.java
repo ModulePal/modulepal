@@ -3,7 +3,7 @@ package me.omartanner.modulepal.data.firebase.db;
 import com.google.firebase.database.GenericTypeIndicator;
 import lombok.Getter;
 import lombok.Setter;
-import me.omartanner.modulepal.config.constants.Constants;
+import me.omartanner.modulepal.Constants;
 import me.omartanner.modulepal.data.firebase.db.objects.DatabaseNode;
 import me.omartanner.modulepal.data.firebase.db.objects.nodes.auth.AuthContext;
 import me.omartanner.modulepal.data.firebase.db.objects.nodes.course.Course;
