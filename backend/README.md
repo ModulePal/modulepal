@@ -55,7 +55,24 @@ This directory contains the source code for the backend of ModulePal.
   
   The below table lists the environment variables. All are required.
   
-  
+  | Environment variable                | Description                                                                                                                                                                      |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `TABULA_API_HTTP_AUTH_HEADER_VALUE` | Authorisation header (API key) for the Tabula API. E.g. `Basic <...>`                                                                                                            |
+| `MAILCHIMP_API_KEY`                 | Mailchimp API Key.                                                                                                                                                               |
+| `MAILCHIMP_LIST_ID`                 | ID of your Mailchimp audience ([guide](https://mailchimp.com/en-gb/help/find-audience-id/)).                                                                                     |
+| `FIREBASE_DB_URL`                   | URL of your Firebase Realtime Database, e.g, `https://<...>.<...>.firebasedatabase.app/`                                                                                         |
+| `SPRING_AUTH_USERNAME`              | Username for Spring services, e.g. HTTP Basic Authentication and H2 database.                                                                                                    |
+| `SPRING_AUTH_PASSWORD`              | Password for Spring services, e.g. HTTP Basic Authentication and H2 database. Should be **secure**, e.g. 16 characters.                                                          |
+| `MAIL_SENDER_HOST`                  | SMTP server domain for email (e.g. `smtp.gmail.com` for gmail).                                                                                                                  |
+| `MAIL_SENDER_PORT`                  | Port of SMTP server (usually 587).                                                                                                                                               |
+| `MAIL_SENDER_USERNAME`              | Username of SMTP server.                                                                                                                                                         |
+| `MAIL_SENDER_PASSWORD`              | Password of SMTP server.                                                                                                                                                         |
+| `OAUTH_CONSUMER_KEY`                | Warwick OAuth consumer key.                                                                                                                                                      |
+| `OAUTH_CLIENT_SHARED_SECRET`        | Warwick OAuth client secret.                                                                                                                                                     |
+| `STARTUP_PRODUCTION_DB`             | `true` to set the database mode to production, under the `mainDatabase` node of the Realtime Database, `false` for test, under the `testDatabase` node of the Realtime Database. |
+| `STARTUP LOAD DB`                   | `true` to load the contents of the Firebase Realtime Database into the H2 cache at startup, `false` otherwise (should be `true` unless testing locally).                         |
+| `MAIL`                              | `true` to send status emails of the backend, `false` otherwise.                                                                                                                  |
+
   
   
   
