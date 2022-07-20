@@ -1,6 +1,6 @@
 # ModulePal
 
-Source code for ModulePal (modulepal.com).
+Source code for ModulePal ([modulepal.com](https://modulepal.com/)).
 
 This project was originally an attempt to learn Spring Boot (Java) and React (TypeScript), but it evolved into something-of-a-product and exploded in complexity. While the code works, it's certainly not the best it could be, and a lot has been learned from the project.
 
