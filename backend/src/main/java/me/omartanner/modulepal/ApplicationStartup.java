@@ -88,7 +88,7 @@ public class ApplicationStartup implements ApplicationListener<ApplicationReadyE
 
             SimpleMailMessage message = new SimpleMailMessage();
             message.setFrom(System.getenv("MAIL_SENDER_USERNAME"));
-            message.setTo("pixzlert@gmail.com");
+            message.setTo(System.getenv("MAIL_RECIPIENT"));
             message.setSubject("ModulePal Backend Restarted");
             message.setText("System restarted.");
             emailSender.send(message);

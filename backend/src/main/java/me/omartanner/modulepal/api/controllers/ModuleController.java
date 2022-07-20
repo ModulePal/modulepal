@@ -544,7 +544,7 @@ public class ModuleController {
         if (Constants.MAIL && ratingAddBody.getNewRatings() != null && ratingAddBody.getNewRatings().stream().anyMatch(r -> r.getType().isTextual())) {
             SimpleMailMessage message = new SimpleMailMessage();
             message.setFrom(System.getenv("MAIL_SENDER_USERNAME"));
-            message.setTo("pixzlert@gmail.com");
+            message.setTo(System.getenv("MAIL_RECIPIENT"));
             message.setSubject("[CHECK REQUIRED] New textual reviews");
             message.setText("uuid: " + userId + ", uniId: " + uniId + "\n\nratingAddBody:\n" + ratingAddBody.toString() + "\n\nnewRatingIds:\n" + newRatingsIds.toString());
             emailSender.send(message);
