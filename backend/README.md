@@ -21,7 +21,7 @@ This directory contains the source code for the backend of ModulePal. We assume 
   
   The backend is entirely free to run using these free services.
   
-  Generally, the application read and writes to the Firebase Realtime Database, and caches data in an in-memory H2 database. Metrics are maintained in-memory in a continuous fashion (avoiding recomputation) with a nested hashmap data structure. In the Firebase Realtime Database, static (non-changing) data (e.g. metadata for modules, departments, etc) is stored under the `staticDatabase` node. Changing data (relating to users, ratings, etc.) is stored under `mainDatabase`.
+  Generally, the application read and writes to the Firebase Realtime Database, and caches data in an in-memory H2 database. Metrics are maintained in-memory in a continuous fashion (avoiding recomputation) with a nested hashmap data structure. In the Firebase Realtime Database, static (non-changing) data (e.g. metadata for modules, departments, etc) is stored under the `staticDatabase` node. Changing data (relating to users, ratings, etc.) is stored under `mainDatabase`. A university user is tied to an anonymous Firebase Authentication session, which maintains the login state on the frontend and the association is managed on the backend.
 
   Originally the backend was hosted using Tomcat on a Linux VPS, however we recommend Heroku for ease of deployment and management (also free for basic use).
   
@@ -31,7 +31,7 @@ This directory contains the source code for the backend of ModulePal. We assume 
   
   Before running the backend, you will require:
   
-  * A **private** Firebase project with [Authentication](https://firebase.google.com/docs/auth) and a [Realtime Database](https://firebase.google.com/docs/database).
+  * A **private** Firebase Project with [Authentication](https://firebase.google.com/docs/auth) (only the 'Anonymous' sign-in-method) and a [Realtime Database](https://firebase.google.com/docs/database) - ensure it's private. This Firebase Project should be the same as the one used in the frontend.
   * A [Mailchimp audience](https://mailchimp.com/en-gb/help/getting-started-audience/) and [API Key](https://mailchimp.com/en-gb/help/about-api-keys/).
   * An SMTP server with TLS to recieve mail with respect to the backend's status (optional) e.g. using [gmail](https://kinsta.com/blog/gmail-smtp-server/).
   * An API key for the [Tabula API](https://warwick.ac.uk/services/its/servicessupport/web/tabula/api/).

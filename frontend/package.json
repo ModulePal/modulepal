@@ -1,0 +1,73 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "3": "^2.1.0",
+    "-": "^0.0.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-regular-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@nivo/heatmap": "^0.62.0",
+    "@nivo/pie": "^0.62.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.22",
+    "@types/react": "^16.14.3",
+    "@types/react-dom": "^16.9.10",
+    "@types/react-router": "^5.1.11",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.6.0",
+    "firebase": "^7.24.0",
+    "firebase-tools": "^8.20.0",
+    "html-loader": "^1.3.2",
+    "jquery": "1.9.1",
+    "popper.js": "1.16.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-card-flip": "^1.0.11",
+    "react-dom": "^16.14.0",
+    "react-facebook-login": "^4.1.1",
+    "react-google-button": "^0.7.2",
+    "react-google-login": "^5.2.2",
+    "react-rangeslider": "^2.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.3.1",
+    "react-scripts": "3.4.1",
+    "react-scrollable-anchor": "^0.6.1",
+    "react-select": "^3.2.0",
+    "react-select-async-paginate": "^0.4.1",
+    "react-switch": "^5.0.1",
+    "react-toggle": "^4.1.1",
+    "reactstrap": "^8.9.0",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/reactstrap": "^8.7.2"
+  }
+}

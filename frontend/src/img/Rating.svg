@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="510" height="350" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1, 0, 0, 1, -4.169976, 0)">
+    <title>Layer 1</title>
+    <rect x="1" y="0" id="svg_1" fill="transparent" height="350" width="510"/>
+    <g id="svg_2">
+      <g id="svg_3">
+        <path id="svg_4" stroke="rgb(237, 237, 190)" fill="#ffffcc" d="m5.11372,299.96037a5,5 0 0 1 -4.99773,-5.1508a255,255 0 0 1 10.73127,-65.89244a5,5 0 0 1 6.37383,-3.29882l99.41476,33.26372a5,5 0 0 1 3.23105,6.07987a140.25,140.25 0 0 0 -4.92783,30.25801a5,5 0 0 1 -4.99325,4.74046l-104.8321,0z"/>
+        <path id="svg_5" stroke="rgb(237, 221, 149)" fill="#ffeda0" d="m18.83276,220.80153a5,5 0 0 1 -3.10509,-6.47042a255,255 0 0 1 11.10734,-25.6983a5,5 0 0 1 6.84042,-2.17176l92.34562,49.61909a5,5 0 0 1 2.15477,6.53924a140.25,140.25 0 0 0 -3.6889,8.53475a5,5 0 0 1 -6.2394,2.91111l-99.41476,-33.26371z"/>
+        <path id="svg_6" stroke="rgb(237, 202, 110)" fill="#fed976" d="m36.07955,181.98677a5,5 0 0 1 -1.96448,-6.90281a255,255 0 0 1 15.29889,-23.44609a5,5 0 0 1 7.10941,-0.98197l82.60882,64.54108a5,5 0 0 1 1.01622,6.8097a140.25,140.25 0 0 0 -5.08097,7.78676a5,5 0 0 1 -6.64227,1.81242l-92.34562,-49.61909z"/>
+        <path id="svg_7" stroke="rgb(237, 166, 71)" fill="#feb24c" d="m59.65048,146.65339a5,5 0 0 1 -0.76712,-7.13579a255,255 0 0 1 195.10094,-92.01558a5,5 0 0 1 5.0182,5.13085l-2.74419,104.79617a5,5 0 0 1 -4.86954,4.86746a140.25,140.25 0 0 0 -102.27621,48.23659a5,5 0 0 1 -6.85326,0.66138l-82.60882,-64.54108z"/>
+        <path id="svg_8" stroke="rgb(236, 131, 56)" fill="#fd8d3c" d="m264.08002,52.76583a5,5 0 0 1 5.27986,-4.86118a255,255 0 0 1 240.52413,246.90492a5,5 0 0 1 -4.99773,5.1508l-104.8321,0a5,5 0 0 1 -4.99325,-4.74046a140.25,140.25 0 0 0 -129.11696,-132.54227a5,5 0 0 1 -4.60813,-5.11564l2.74418,-104.79617z"/>
+        <g id="svg_9">
+          <text id="svg_10" style="font-family: sans-serif;font-size: 11px; text-anchor: middle; white-space: pre;" x="59.9448" y="270.733">Boring (0)</text>
+        </g>
+        <g id="svg_11">
+          <text id="svg_12" style="font-family: sans-serif;font-size: 11px; text-anchor: middle; white-space: pre;" x="73.5945" y="224.093">Meh (1)</text>
+        </g>
+        <g id="svg_13">
+          <text id="svg_14" style="font-family: sans-serif;font-size: 11px; text-anchor: middle; white-space: pre;" x="89.4929" y="194.504">OK (5)</text>
+        </g>
+        <g id="svg_15">
+          <text id="svg_16" style="font-family: sans-serif;font-size: 11px; text-anchor: middle; white-space: pre;" x="170.699" y="123.757">Interesting (11)</text>
+        </g>
+        <g id="svg_17">
+          <text id="svg_18" style="font-family: sans-serif; font-size: 11px; text-anchor: middle; white-space: pre;" x="396.559" y="164.599">Exciting (18)</text>
+        </g>
+      </g>
+    </g>
+    <text id="svg_19" style="font-family: Arial; font-size: 24px; font-weight: 700; stroke-width: 0px; white-space: pre;" x="212.986" y="260.515">Exciting</text>
+  </g>
+</svg>
