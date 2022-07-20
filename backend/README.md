@@ -54,7 +54,7 @@ This directory contains the source code for the backend of ModulePal.
   ### Environment variables
   
   The below table lists the environment variables. All are required.
-  
+
   | Environment variable                | Description                                                                                                                                                                      |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `TABULA_API_HTTP_AUTH_HEADER_VALUE` | Authorisation header (API key) for the Tabula API. E.g. `Basic <...>`                                                                                                            |
@@ -72,7 +72,6 @@ This directory contains the source code for the backend of ModulePal.
 | `STARTUP_PRODUCTION_DB`             | `true` to set the database mode to production, under the `mainDatabase` node of the Realtime Database, `false` for test, under the `testDatabase` node of the Realtime Database. |
 | `STARTUP LOAD DB`                   | `true` to load the contents of the Firebase Realtime Database into the H2 cache at startup, `false` otherwise (should be `true` unless testing locally).                         |
 | `MAIL`                              | `true` to send status emails of the backend, `false` otherwise.                                                                                                                  |
+| `MAIL_RECIPIENT`                    | Email to send the backend status emails to (e.g. personal email).                                                                                                                                     |
 
-  
-  
   
