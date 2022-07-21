@@ -52,7 +52,7 @@ Please note that we do not provide the populated database of ModulePal in produc
 I'd like to acknowledge the following people for significant assistance on the project:
 
 * Dr. Florin Ciucu - High-level steering, departmental assistance
-* Vanshika Saxena - UI/UX mockups and implementation
+* Vanshika Saxena - UI/UX mockups in Adobe XD and React implementation
 * Warwick ITS team - Access to data, APIs and assistance
 
 ## License
