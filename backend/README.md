@@ -78,4 +78,6 @@ This directory contains the source code for the backend of ModulePal. We assume 
 | `MAIL`                              | `true` to send status emails of the backend, `false` otherwise.                                                                                                                  |
 | `MAIL_RECIPIENT`                    | Email to send the backend status emails to (e.g. personal email).                                                                                                                                     |
 
-  
+## Extras
+
+As a nice extra with Heroku, you can use the Better Uptime add-on to get a free uptime page, e.g. https://modulepal.betteruptime.com/ for the existing site.
