@@ -39,7 +39,7 @@ If you would like to run the site yourself, you should first make a private [Fir
 
 If you'd like to become the maintainer of ModulePal or run it yourself and require assistance, I'd be happy to help. I'm aware there's a lot of details that have not been fully explained in the README files, and that aspects of it may be difficult to understand. There's plenty that can be improved. DM me on Discord: `omarathon#2226`.
 
-## Disclaimer
+## Data note
 
 Please note that we do not provide the populated database of ModulePal in production (https://modulepal.com) here, as it contains sensitive student data. If you would like this data, please request it by DMing `omarathon#2226` on Discord.
 
