@@ -29,6 +29,18 @@ export function dateDiffFriendly(d1: Date, d2: Date): string {
 
     var delta = Math.abs(date1 - date2) / 1000;
 
+    // calculate (and subtract) whole years
+    var years = Math.floor(delta / 31536000);
+    delta -= years * 31536000;
+
+    // calculate (and subtract) whole months
+    var months = Math.floor(delta / 2628000);
+    delta -= months * 2628000;
+
+    // calculate (and subtract) whole days
+    var days = Math.floor(delta / 86400);
+    delta -= days * 86400;
+
     // calculate (and subtract) whole days
     var days = Math.floor(delta / 86400);
     delta -= days * 86400;
@@ -46,6 +58,12 @@ export function dateDiffFriendly(d1: Date, d2: Date): string {
 
     var result: string[] = [];
 
+    if (years > 0) {
+        result.push(years + " year" + plural(years));
+    }
+    if (months > 0) {
+        result.push(months + " month" + plural(months));
+    }
     if (days > 0) {
         result.push(days + " day" + plural(days));
     }
