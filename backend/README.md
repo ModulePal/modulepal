@@ -1,8 +1,8 @@
-## Backend
+# Backend
 
 This directory contains the source code for the backend of ModulePal. We assume you are comfortable with the technologies used by the project.
 
-### Tech stack
+## Tech stack
 
   The backend uses the following technologies:
   
@@ -25,7 +25,7 @@ This directory contains the source code for the backend of ModulePal. We assume 
 
   Originally the backend was hosted using Tomcat on a Linux VPS, however we recommend Heroku for ease of deployment and management (also free for basic use).
   
-  ### Setup
+  ## Setup
   
   We recommend developing the backend using the [IntelliJ IDEA](https://www.jetbrains.com/idea/) IDE. You will need an [account on Heroku](https://www.heroku.com/) and the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed.
   
@@ -52,7 +52,7 @@ This directory contains the source code for the backend of ModulePal. We assume 
   1. Deploy the app on Heroku. Run `git push heroku master`.
   1. If this is your first time running the backend, populate your Firebase Realtime Database with the necessary data from the Tabula API (modules, departments, etc.) under the `staticDatabase` node by making a POST request to the `/admin/database/importRealData` endpoint (by using e.g. Postman).
   
-  ### Environment variables
+  ## Environment variables
   
   The below table lists the environment variables. All are required.
 

@@ -1,10 +1,8 @@
-
-
-## Frontend
+# Frontend
 
 Front-end for ModulePal (React, TypeScript) hosted using Firebase Hosting.
 
-### Tech stack
+## Tech stack
 
 We use the following technologies:
 
@@ -16,7 +14,7 @@ We use the following technologies:
 
 ... and various other libraries detailed in the package.json. It should be noted we use [Reactstrap](https://reactstrap.github.io/) for using Boostrap in React. We utilise Firebase Authentication for session management purposes only (hence, we only use the Anonymous sign-in-provider, and perform university account to Firebase session ID association on the backend).
 
-### Setup
+## Setup
 
 We recommend using the Visual Studio Code IDE for development. You will need [Yarn](https://yarnpkg.com/cli/install) (or if you prefer, npm, but we do not provide instructions for it).
 

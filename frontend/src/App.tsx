@@ -15,7 +15,6 @@ import { ModulePageComponent } from './components/module/ModulePageComponent';
 import { EmailVerifiedPageComponent } from './components/email-verified-page/EmailVerifiedPageComponent';
 
 import { ModuleProvider } from './components/module/context/ModuleContext';
-import { CookiesPolicyPageComponent } from './components/legal/CookiesPolicyPageComponent';
 import { PrivacyPolicyPageComponent } from './components/legal/PrivacyPolicyPageComponent';
 import { LegalComponent } from './components/legal/LegalComponent';
 import { LegalPageComponent } from './components/legal/LegalPageComponent';
@@ -55,7 +54,6 @@ function App() {
             <Route exact path="/reviews" component={ReviewsPageComponent} />
             <Route exact path="/settings" component={SettingsPageComponent} />
             <Route exact path="/emailVerified" component={EmailVerifiedPageComponent} />
-            <Route exact path="/cookies" component={CookiesPolicyPageComponent} />
             <Route exact path="/privacy" component={PrivacyPolicyPageComponent} />
             <Route exact path="/legal" component={LegalPageComponent} />
             <Route exact path="/about" component={AboutPageComponent} />

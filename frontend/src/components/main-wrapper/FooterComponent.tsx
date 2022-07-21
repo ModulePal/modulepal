@@ -28,11 +28,7 @@ export const FooterComponent: React.FC = () => {
                     <p><FontAwesomeIcon icon={faInfoCircle} size="sm" /> <a href="/about">About</a></p>
                   </Col>
                   <Col className="col-12 col-sm-6 text-right">
-                    {/* <p><FontAwesomeIcon icon={faShieldAlt} size="sm" /> <a href="/privacy">Privacy Policy</a></p>
-                    <p><FontAwesomeIcon icon={faCookieBite} size="sm" /> <a href="/cookies">Cookie Preferences</a></p>
-                    <p><FontAwesomeIcon icon={faScroll} size="sm" /> <a href="/legal">Legal</a></p> */}
                     <p><a href="/privacy">Privacy Policy</a></p>
-                    <p><a href="/cookies">Cookie Preferences</a></p>
                     <p><a href="/legal">Legal</a></p>
                   </Col>
                 </Row>
