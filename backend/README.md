@@ -73,7 +73,7 @@ This directory contains the source code for the backend of ModulePal. We assume 
 | `OAUTH_CONSUMER_KEY`                | Warwick OAuth consumer key.                                                                                                                                                      |
 | `OAUTH_CLIENT_SHARED_SECRET`        | Warwick OAuth client secret.                                                                                                                                                     |
 | `STARTUP_PRODUCTION_DB`             | `true` to set the database mode to production, under the `mainDatabase` node of the Realtime Database, `false` for test, under the `testDatabase` node of the Realtime Database. |
-| `STARTUP_LOAD DB`                   | `true` to load the contents of the Firebase Realtime Database into the H2 cache at startup, `false` otherwise (should be `true` unless testing locally).                         |
+| `STARTUP_LOAD_DB`                   | `true` to load the contents of the Firebase Realtime Database into the H2 cache at startup, `false` otherwise (should be `true` unless testing locally).                         |
 | `MAIL`                              | `true` to send status emails of the backend, `false` otherwise.                                                                                                                  |
 | `MAIL_RECIPIENT`                    | Email to send the backend status emails to (e.g. personal email).                                                                                                                                     |
 
