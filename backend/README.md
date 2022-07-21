@@ -51,6 +51,7 @@ This directory contains the source code for the backend of ModulePal. We assume 
   1. Upload the app on Heroku. If you do not have an existing Heroku app then run `heroku create`, otherwise run `heroku git:remote -a <app>` where `<app>` is your app's ID.
   1. Deploy the app on Heroku. Run `git push heroku master`.
   1. If this is your first time running the backend, populate your Firebase Realtime Database with the necessary data from the Tabula API (modules, departments, etc.) under the `staticDatabase` node by making a POST request to the `/admin/database/importRealData` endpoint (by using e.g. Postman).
+  1. Since Heroku free Dynos automatically shutdown after no web requests for 30 minutes, we recommend you add your Heroku app to http://kaffeine.herokuapp.com/ to keep it alive by pinging it every 30 minutes. 
   
   ## Environment variables
   
