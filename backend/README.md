@@ -37,6 +37,8 @@ This directory contains the source code for the backend of ModulePal. We assume 
   * An API key for the [Tabula API](https://warwick.ac.uk/services/its/servicessupport/web/tabula/api/).
   * A HMAC-SHA1 consumer key and client shared secret for [Warwick OAuth](https://warwick.ac.uk/services/its/servicessupport/web/sign-on/help/oauth/apis/) (obtain [here](https://warwick.ac.uk/services/its/servicessupport/web/sign-on/help/oauth/apis/registration/)).
   * An app on [Heroku](https://www.heroku.com/) for Java.
+
+  You may not require all of these services, e.g. the SMTP server and Mailchimp. Please remove them yourself if so.
   
   The following steps will run the backend either locally or on Heroku:
   
