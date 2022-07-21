@@ -4,6 +4,8 @@ Source code for ModulePal ([modulepal.com](https://modulepal.com/)).
 
 This project was originally an attempt to learn Spring Boot (Java) and React (TypeScript), but it evolved into something-of-a-product and exploded in complexity. While the code works, it's certainly not the best it could be, and a lot has been learned from the project.
 
+Aspects of the code have been separately open-sourced, e.g. OAuth1-HMAC: https://github.com/omarathon/oauth1-hmac.
+
 ## Tech stack
 
 An overview of the tech stack is given below (more detail can be found in the README of the [frontend](/frontend/) and [backend](/backend/)). In general it's a high-performance CRUD application with optimisations in the backend for metric computations, and a secure OAuth authentication system for university student data. The backend is a monalith. The entire app is actually free to host and run (including the backend).
