@@ -10,7 +10,6 @@ import java.util.Set;
 @Table(name="MODULE",
        indexes = {
             @Index(name = "module_name_index", columnList = "name"),
-            @Index(name = "module_active_index", columnList = "active"),
             @Index(name = "module_department_index", columnList = "department_id"),
                @Index(name = "module_num_reviews_total_index", columnList = "num_reviews_total")
        })
