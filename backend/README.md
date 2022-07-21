@@ -27,7 +27,7 @@ This directory contains the source code for the backend of ModulePal. We assume 
   
   ## Setup
   
-  We recommend developing the backend using the [IntelliJ IDEA](https://www.jetbrains.com/idea/) IDE. You will need an [account on Heroku](https://www.heroku.com/) and the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed.
+  We recommend developing the backend using the [IntelliJ IDEA](https://www.jetbrains.com/idea/) IDE. You will need an [account on Heroku](https://www.heroku.com/) and the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed. Please note that starting the backend causes expensive and timely indexing to occur, so we recommend to keep your instance of the backend running persistently rather than starting it on every request.
   
   Before running the backend, you will require:
   
@@ -41,7 +41,7 @@ This directory contains the source code for the backend of ModulePal. We assume 
   The following steps will run the backend either locally or on Heroku:
   
   1. Copy the code into a local **private** git repository.
-  1. Configure your IDE such that there are no errors. You may need to the use the plugin registry in IntelliJ IDEA, by going to Settings -> Build, Execution, Deployment -> Build Tools -> Maven -> Check 'Use plugin registry'.
+  1. Configure your IDE such that there are no errors. You may need to the use the plugin registry in IntelliJ IDEA, by going to Settings -> Build, Execution, Deployment -> Build Tools -> Maven -> Check 'Use plugin registry'. It will take some time for Maven to install and index the dependencies in the pom.xml.
   1. [Generate the private key for your Firebase service account](https://firebase.google.com/docs/admin/setup#initialize-sdk) and copy the file to the location [src/main/resources/firebase-service-account.json](/backend/src/main/resources/firebase-service-account.json). 
   1. Set the environment variables as listed in the below section, either locally or in your Heroku app if deploying to Heroku. In your Heroku app, go to the Settings tab and find Config Vars. Click 'Reveal Config Vars' and enter your environment variables and their values.
   1. Compile the application by running `mvn compile`. Do not proceed until this succeeds.
@@ -50,9 +50,10 @@ This directory contains the source code for the backend of ModulePal. We assume 
   1. Commit your changes to git: `git init` -> `git add .` -> `git commit -m "Ready to deploy"`.
   1. Upload the app on Heroku. If you do not have an existing Heroku app then run `heroku create`, otherwise run `heroku git:remote -a <app>` where `<app>` is your app's ID.
   1. Deploy the app on Heroku. Run `git push heroku master`.
-  1. If this is your first time running the backend, populate your Firebase Realtime Database with the necessary data from the Tabula API (modules, departments, etc.) under the `staticDatabase` node by making a POST request to the `/admin/database/importRealData` endpoint (by using e.g. Postman).
-  1. Since Heroku free Dynos automatically shutdown after no web requests for 30 minutes, we recommend you add your Heroku app to http://kaffeine.herokuapp.com/ to keep it alive by pinging it every 30 minutes.
-  1. :rocket:
+  2. The backend will take some time to start up.
+  3. If this is your first time running the backend, populate your Firebase Realtime Database with the necessary data from the Tabula API (modules, departments, etc.) under the `staticDatabase` node by making a POST request to the `/admin/database/importRealData` endpoint (by using e.g. Postman).
+  4. Since Heroku free Dynos automatically shutdown after no web requests for 30 minutes, we recommend you add your Heroku app to http://kaffeine.herokuapp.com/ to keep it alive by pinging it every 30 minutes.
+  5. :rocket:
   
   ## Environment variables
   
