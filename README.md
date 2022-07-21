@@ -53,7 +53,7 @@ I'd like to acknowledge the following people for significant assistance on the p
 
 * Dr. Florin Ciucu - High-level steering, departmental assistance
 * Vanshika Saxena - UI/UX mockups in Adobe XD and React implementation
-* Warwick ITS team - Access to data, APIs and assistance
+* Adam Williams and Michael Gale - Assistance with Warwick/ITS technologies
 
 ## License
 
