@@ -6,7 +6,7 @@
 
 Source code for ModulePal ([modulepal.com](https://modulepal.com/)).
 
-This project was originally an attempt to learn Spring Boot (Java) and React (TypeScript), but it evolved into something-of-a-product and exploded in complexity. While the code works, it's certainly not the best it could be, and a lot has been learned from the project.
+This project was originally an attempt to learn Spring and React, but it evolved into something-of-a-product and exploded in complexity. While the code works, it's certainly not the best it could be, and a lot has been learned from the project.
 
 Aspects of the code have been tidied up and separately open-sourced, e.g. OAuth1-HMAC: https://github.com/omarathon/oauth1-hmac.
 
