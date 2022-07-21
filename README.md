@@ -47,6 +47,14 @@ If you'd like to become the maintainer of ModulePal or run it yourself and requi
 
 Please note that we do not provide the populated database of ModulePal in production (https://modulepal.com) here, as it contains sensitive student data. If you would like this data, please request it by DMing `omarathon#2226` on Discord.
 
+## Acknowledgements
+
+I'd like to acknowledge the following people for significant assistance on the project:
+
+* Dr. Florin Ciucu - High-level steering, departmental assistance
+* Vanshika Saxena - UI/UX mockups and implementation
+* Warwick ITS team - Access to data, APIs and assistance
+
 ## License
 
 This software is protected under the BSD 3-Clause license.
