@@ -16,7 +16,7 @@ We use the following technologies:
 
 ## Setup
 
-We recommend using the Visual Studio Code IDE for development. You will need [Yarn](https://yarnpkg.com/cli/install) (or if you prefer, npm, but we do not provide instructions for it).
+We recommend using the [Visual Studio Code](https://code.visualstudio.com/) IDE for development. You will need [Yarn](https://yarnpkg.com/cli/install) (or if you prefer, npm, but we do not provide instructions for it).
 
 You will need the backend running either on the cloud or locally for the frontend to function properly. You must use the same **private** Firebase Project as the backend for the frontend.
 
