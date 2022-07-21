@@ -1,6 +1,6 @@
-# Frontend
+# ModulePal Frontend
 
-Front-end for ModulePal (React, TypeScript) hosted using Firebase Hosting.
+This directory contains the source code for the frontend of ModulePal (React, TypeScript) hosted using Firebase Hosting. We assume you are comfortable with the technologies used by the project.
 
 ## Tech stack
 

@@ -1,4 +1,4 @@
-# Backend
+# ModulePal Backend
 
 This directory contains the source code for the backend of ModulePal. We assume you are comfortable with the technologies used by the project.
 
