@@ -35,6 +35,12 @@ An overview of the tech stack is given below (more detail can be found in the RE
 * [Heroku](https://www.heroku.com/)
 * [Mailchimp](https://mailchimp.com)
 
+### Architecture
+
+Below is an architecture diagram depicting how the components of the frontend backend interact.
+
+
+
 ## Setup
 
 If you would like to run the site yourself, you should first make a private [Firebase Project](https://firebase.google.com/) that will be shared by both the frontend and the backend. Then, set up the [backend](/backend/), followed by the [frontend](/frontend/) (guides are provided in the respective directories' README). You will probably need to make additional changes after deploying via the guides. You'll need a few API keys from the University of Warwick, but the entire app should be free to host provided you use our stack.
