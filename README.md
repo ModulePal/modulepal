@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/omarathon/modulepal/main/frontend/src/img/logo-large-no-warwick.png" width="600" />
+<img src="https://raw.githubusercontent.com/ModulePal/modulepal/main/frontend/src/img/logo-large-no-warwick.png" width="600" />
 </p>
 
 # ModulePal
