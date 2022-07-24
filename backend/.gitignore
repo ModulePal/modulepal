@@ -32,3 +32,6 @@ build/
 
 ### Logs ###
 .logs/
+
+### FIREBASE SERVICE ACCOUNT ###
+src/main/resources/firebase-service-account.json
