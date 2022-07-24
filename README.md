@@ -39,7 +39,7 @@ An overview of the tech stack is given below (more detail can be found in the RE
 
 Below is an architecture diagram depicting how the components of the frontend backend interact.
 
-
+![](architecture.svg)
 
 ## Setup
 
