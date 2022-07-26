@@ -47,6 +47,7 @@ This directory contains the source code for the backend of ModulePal. We assume 
   1. [Generate the private key for your Firebase service account](https://firebase.google.com/docs/admin/setup#initialize-sdk) and copy the file to the location [src/main/resources/firebase-service-account.json](/backend/src/main/resources/firebase-service-account.json). 
   1. Set the environment variables as listed in the below section, either locally or in your Heroku app if deploying to Heroku. In your Heroku app, go to the Settings tab and find Config Vars. Click 'Reveal Config Vars' and enter your environment variables and their values.
   1. Compile the application by running `mvn compile`. Do not proceed until this succeeds.
+  1. Generate the target (without running tests) by running `mvn package -DskipTests`.
   1. Run locally via Maven (note, skip tests) or by running `java -jar target/dependency/webapp-runner.jar target/*.war` in this directory.
   1. The following remaining steps will deploy the app to Heroku (by following [this guide](https://devcenter.heroku.com/articles/java-webapp-runner)).
   1. Commit your changes to git: `git init` -> `git add .` -> `git commit -m "Ready to deploy"`.
