@@ -6,7 +6,7 @@ import { AuthContext } from '../../services/firebase/AuthStore';
 import { UniUserBasicData } from '../../services/rest/dto/UniUserBasicData';
 import { CurrentUserDataContext } from '../../services/rest/CurrentUserDataStore';
 import { BannerComponent } from '../banner/BannerComponent';
-import logolarge from '../../img/logo-large.png';
+import logolarge from '../../img/logo-large-no-warwick.png';
 import { LoginComponent } from '../login-page/LoginComponent';
 import { LoginAsGuestComponent } from '../login-page/LoginAsGuestComponent';
 import { SignupComponent } from '../signup-page/SignupComponent';

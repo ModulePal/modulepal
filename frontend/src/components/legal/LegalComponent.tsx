@@ -6,13 +6,13 @@ export const LegalComponent = ({ history }) => {
         <React.Fragment>
 <Container>
 <p><h1>Terms and Conditions</h1></p>
-<p>Last Updated <strong>26 April 2021</strong></p>
+<p>Last Updated <strong>31 July 2022</strong></p>
 <ol>
 <br />
 <h3><li>Agreement to Terms</li></h3>
 <br />
 
-<p>1.1 &nbsp;These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (<strong>you</strong>), and&nbsp;<strong>Omar Tanner PSC Ltd</strong>,<strong>&nbsp;</strong>located at<strong>&nbsp;England, United Kingdom&nbsp;</strong>(<strong>we</strong>,&nbsp;<strong>us</strong>), concerning your access to and use of the&nbsp;<strong>ModulePal&nbsp;(</strong><a href="https://modulepal.com/"><strong>https://modulepal.com</strong></a><strong>)&nbsp;</strong>website as well as any related applications (the&nbsp;<strong>Site</strong>).&nbsp;&nbsp;</p>
+<p>1.1 &nbsp;These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (<strong>you</strong>), and&nbsp;<strong>Omar Tanner PSC Ltd</strong> (owner of 'ModulePal'),<strong>&nbsp;</strong>located at<strong>&nbsp;England, United Kingdom&nbsp;</strong>(<strong>we</strong>,&nbsp;<strong>us</strong>), concerning your access to and use of the&nbsp;<strong>ModulePal&nbsp;(</strong><a href="https://modulepal.com/"><strong>https://modulepal.com</strong></a><strong>)&nbsp;</strong>website as well as any related applications (the&nbsp;<strong>Site</strong>).&nbsp;&nbsp;</p>
 <p>The Site provides the following services:<br></br>Allows students at the University of Warwick to review modules. Students can review modules based upon a number of metrics, as well as make comments and suggestions. Aggregated statistics are computed and shown for the review categories. Students must link their University of Warwick accounts before making reviews, to ensure the legitimacy of reviews (i.e. that the student has done the module) and to contextualise their reviews (i.e. based upon the grades they achieved in the respective modules).&nbsp;(<strong>Services</strong>). You agree that by accessing the Site and/or Services, you have read, understood, and agree to be bound by all of these Terms and Conditions.&nbsp;&nbsp;</p>
 <p><strong>If you do not agree with all of these Terms and Conditions, then you are prohibited from using the Site and Services and you must discontinue use immediately</strong>. We recommend that you print a copy of these Terms and Conditions for future reference.&nbsp;&nbsp;</p>
 
@@ -86,7 +86,7 @@ export const LegalComponent = ({ history }) => {
 
 <p>3.1 &nbsp;You represent and warrant that: (a) all registration information you submit will be true, accurate, current, and complete and relate to you and not a third party; (b) you will maintain the accuracy of such information and promptly update such information as necessary; (c) you will keep your password confidential and will be responsible for all use of your password and account; (d) you have the legal capacity and you agree to comply with these Terms and Conditions; and (e) you are not a minor in the jurisdiction in which you reside, or if a minor, you have received parental permission to use the Site.&nbsp;&nbsp;</p>
 
-<p>If you know or suspect that anyone other than you knows your User information (such as an identification code or User name) and/or password you must promptly notify us at&nbsp;legal@modulepal.com.</p>
+<p>If you know or suspect that anyone other than you knows your User information (such as an identification code or User name) and/or password you must promptly notify us at&nbsp;omrtnnr@gmail.com.</p>
 
 <p>3.2 &nbsp;If you provide any information that is untrue, inaccurate, not current or incomplete, we may suspend or terminate your account. We may remove or change a User name you select if we determine that such User name is inappropriate.&nbsp;&nbsp;</p>
 
@@ -100,7 +100,7 @@ export const LegalComponent = ({ history }) => {
 
 <p>You will have the ability to disable the connection between your account on the Site and your Third Party Accounts at any time.&nbsp;<strong>Please note that your relationship with the third party service providers associated with your third party accounts is governed solely by your agreement(s) with such third party service providers.</strong>&nbsp; We make no effort to review any Social Network Content for any purpose, including but not limited to, for accuracy, legality or non-infringement, and we are not responsible for any Social Network Content.&nbsp;</p>
 
-<p>You acknowledge and agree that we may access your email address book associated with a Third Party Account and your contacts list stored on your mobile device or tablet computer solely for purposes of identifying and informing you of those contacts who have also registered to use the Site. At your email request to&nbsp;legal@modulepal.com&nbsp;or through your account settings (if applicable), we will deactivate the connection between the Site and your Third Party Account and attempt to delete any information stored on our servers that was obtained through such Third Party Account, except the Username and profile picture that became associated with your account.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>You acknowledge and agree that we may access your email address book associated with a Third Party Account and your contacts list stored on your mobile device or tablet computer solely for purposes of identifying and informing you of those contacts who have also registered to use the Site. At your email request to&nbsp;omrtnnr@gmail.com&nbsp;or through your account settings (if applicable), we will deactivate the connection between the Site and your Third Party Account and attempt to delete any information stored on our servers that was obtained through such Third Party Account, except the Username and profile picture that became associated with your account.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <br />
 <br />
 <h3><li>Content you provide to us</li></h3>
@@ -117,7 +117,7 @@ export const LegalComponent = ({ history }) => {
 
 <p>4.6 &nbsp;We are not responsible and accept no liability for any User Content including any such content that contains incorrect information or is defamatory or loss of User Content. We accept no obligation to screen, edit or monitor any User Content but we reserve the right to remove, screen and/or edit any User Content without notice and at any time. User Content has not been verified or approved by us and the views expressed by other Users on the Site do not represent our views or values&nbsp;</p>
 
-<p>4.7 &nbsp;If you wish to complain about User Content uploaded by other Users please contact us&nbsp;at&nbsp;legal@modulepal.com&nbsp;or use the take down or report button.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>4.7 &nbsp;If you wish to complain about User Content uploaded by other Users please contact us&nbsp;at&nbsp;omrtnnr@gmail.com&nbsp;or use the take down or report button.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <br />
 <br />
 <h3><li>Our content</li></h3>
@@ -199,7 +199,7 @@ export const LegalComponent = ({ history }) => {
 <br />
 <h3><li>Term and Termination</li></h3>
 <br />
-<p>10.1 &nbsp;These Terms and Conditions shall remain in full force and effect while you use the Site or Services or are otherwise a User of the Site, as applicable. You may terminate your use or participation at any time, for any reason, by following the instructions for terminating User accounts in your account settings, if available, or by contacting us at&nbsp;legal@modulepal.com.&nbsp;&nbsp;</p>
+<p>10.1 &nbsp;These Terms and Conditions shall remain in full force and effect while you use the Site or Services or are otherwise a User of the Site, as applicable. You may terminate your use or participation at any time, for any reason, by following the instructions for terminating User accounts in your account settings, if available, or by contacting us at&nbsp;omrtnnr@gmail.com.&nbsp;&nbsp;</p>
 
 <p>10.2 &nbsp;Without limiting any other provision of these Terms and Conditions, we reserve the right to, in our sole discretion and without notice or liability, deny access to and use of the Site and the Services (including blocking certain IP addresses), to any person for any reason including without limitation for breach of any representation, warranty or covenant contained in these Terms and Conditions or of any applicable law or regulation.&nbsp;&nbsp;</p>
 
@@ -230,10 +230,10 @@ export const LegalComponent = ({ history }) => {
 
 <p>11.9&nbsp;&nbsp;A&nbsp;person who is not a party to these Terms and Conditions shall have no right under the Contracts (Rights of Third Parties) Act 1999 to enforce any term of these Terms and Conditions.&nbsp;</p>
 
-<p>11.10 &nbsp;In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us by email at&nbsp;legal@modulepal.com&nbsp;or by post to:&nbsp;</p>
+<p>11.10 &nbsp;In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us by email at&nbsp;omrtnnr@gmail.com&nbsp;or by post to:&nbsp;</p>
 </ol>
 <br />
-<p>Omar Tanner PSC Ltd&nbsp;&nbsp;</p>
+<p>Omar Tanner PSC Ltd (owner of 'ModulePal')&nbsp;&nbsp;</p>
 <p>England, United Kingdom</p>
 
 <br />
@@ -242,10 +242,10 @@ export const LegalComponent = ({ history }) => {
 <br />
 <br />
 <h1><p>Disclaimer</p></h1>
-<p>Last Updated <strong>April 26, 2021</strong></p>
+<p>Last Updated <strong>31 July 2022</strong></p>
 <br />
 <h3><p>Website Disclaimer</p></h3>
-<p>The information provided by&nbsp;Omar Tanner PSC Ltd&nbsp;(&ldquo;we,&rdquo; &ldquo;us&rdquo; or &ldquo;our&rdquo;) on&nbsp;<a href="https://modulepal.com/">https://modulepal.com</a>&nbsp;(the &ldquo;Site&rdquo;)&nbsp;is for general informational purposes only. All information on the Site&nbsp;is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability or completeness of any information on the Site. UNDER NO CIRCUMSTANCE SHALL WE HAVE ANY LIABILITY TO YOU FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF THE SITE&nbsp;OR RELIANCE ON ANY INFORMATION PROVIDED ON THE SITE. YOUR USE OF THE SITE&nbsp;AND YOUR RELIANCE ON ANY INFORMATION ON THE SITE&nbsp;IS SOLELY AT YOUR OWN RISK.</p>
+<p>The information provided by&nbsp;Omar Tanner PSC Ltd (owner of 'ModulePal')&nbsp;(&ldquo;we,&rdquo; &ldquo;us&rdquo; or &ldquo;our&rdquo;) on&nbsp;<a href="https://modulepal.com/">https://modulepal.com</a>&nbsp;(the &ldquo;Site&rdquo;)&nbsp;is for general informational purposes only. All information on the Site&nbsp;is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability or completeness of any information on the Site. UNDER NO CIRCUMSTANCE SHALL WE HAVE ANY LIABILITY TO YOU FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF THE SITE&nbsp;OR RELIANCE ON ANY INFORMATION PROVIDED ON THE SITE. YOUR USE OF THE SITE&nbsp;AND YOUR RELIANCE ON ANY INFORMATION ON THE SITE&nbsp;IS SOLELY AT YOUR OWN RISK.</p>
 <br />
 <h3><p>External Links Disclaimer</p></h3>
 <p>The&nbsp;Site&nbsp;may contain (or you may be sent through the Site) links&nbsp;to other websites or content belonging to or originating from third parties or links to websites and features in banners or other advertising. Such external links are not investigated, monitored, or checked for accuracy, adequacy, validity, reliability, availability or completeness by us. WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR THE ACCURACY OR RELIABILITY OF ANY INFORMATION OFFERED BY THIRD-PARTY WEBSITES LINKED THROUGH THE SITE OR ANY WEBSITE OR FEATURE LINKED IN ANY BANNER OR OTHER ADVERTISING. WE WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES.</p>

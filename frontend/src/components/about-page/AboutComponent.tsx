@@ -7,9 +7,8 @@ export const AboutComponent = () => {
         <React.Fragment>
             <Container>
         <h2>What is ModulePal?</h2>
-        <p>ModulePal is an app which enables students at the University of Warwick to review modules they have taken, to inform and ultimately help students make better decisions. We aim to provide legitimate and informative statistics, by linking to students' University of Warwick accounts and harnessing that data effectively and <a href="/privacy#warwick" target="_blank">confidentially</a>.</p>
-        <p>We feel that, although the University of Warwick does inter-departmental surveys, students' experiences are not shared enough between the higher and lower cohorts. We aim to bridge that gap, allowing students to learn from eachother's experiences, giving them a voice that can be heard.</p>
-        <p>ModulePal is an app created by and for students. So, whether you had a particularly good or bad experience with a module - or just want to help out your fellow peers - sharing your reviews helps support both your peers and the running of the app! We hope that over time, ModulePal will become a vast collection of knowledge and experiences, providing useful insights for both students and staff.</p>
+        <p>ModulePal is an app which enables students at the University of Warwick to review modules they have taken, to inform and ultimately help students and staff make better decisions. We provide legitimate and informative statistics, by linking to students' University of Warwick accounts and harnessing that data effectively and <a href="/privacy#warwick" target="_blank">confidentially</a>.</p>
+        <p>ModulePal is an app created by and for students. So, whether you had a particularly good or bad experience with a module - or just want to help out your fellow peers and staff - sharing your reviews helps support both your peers and the running of the app! We hope that over time, ModulePal will become a vast collection of knowledge and experiences, providing useful insights for both students and staff.</p>
         <br />
 
         <h2>I want to post reviews! How can I do that?</h2>
@@ -35,8 +34,11 @@ export const AboutComponent = () => {
             <p>All data pertaining to your University of Warwick Student account will be deleted from our database after you Unlink your Student Account or Delete your account from ModulePal.
             </p>
             <br />
+            <h2>Contributions</h2>
+            <p>ModulePal is open-source and open to contributions from kind collaborators on GitHub: <a href="https://github.com/ModulePal/modulepal" target="_blank">https://github.com/ModulePal/modulepal</a>.</p>
+            <br />
             <h2>Contact</h2>
-            <p>Email: <a href="mailto:omar@modulepal.com">omar@modulepal.com</a><br/>
+            <p>Email: <a href="mailto:omrtnnr@gmail.com">omrtnnr@gmail.com</a><br/>
             </p>
             </Container>
         </React.Fragment>

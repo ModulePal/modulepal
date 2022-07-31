@@ -30,6 +30,7 @@ export const FooterComponent: React.FC = () => {
                   <Col className="col-12 col-sm-6 text-right">
                     <p><a href="/privacy">Privacy Policy</a></p>
                     <p><a href="/legal">Legal</a></p>
+                    <p><a href="https://github.com/ModulePal/modulepal" target="_blank">GitHub</a></p>
                   </Col>
                 </Row>
               </Col>
@@ -46,7 +47,7 @@ export const FooterComponent: React.FC = () => {
               <FontAwesomeIcon icon={faGraduationCap} size="sm" /> ModulePal v2.6.6-beta
             </Col>
             <Col className="text-right">
-            © Omar Tanner 2020-2021
+            Copyright © ModulePal 2020-2022
             </Col>
         </Row>
         </Container>

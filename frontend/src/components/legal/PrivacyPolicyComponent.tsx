@@ -22,12 +22,12 @@ export const PrivacyPolicyComponent = ({ history }) => {
             <Alert color="info" className="mb-5 text-center"><span><FontAwesomeIcon icon={faInfoCircle} size="sm" /> &nbsp;Interested in the privacy of your Warwick Student Data? <a href="/privacy#warwick">Click here.</a></span></Alert>
             
 <p><h1>Privacy Policy</h1></p>
-<p>Last updated: <strong>10 August 2021</strong>.</p>
+<p>Last updated: <strong>31 July 2022</strong>.</p>
 <p>This Application collects some Personal Data from its Users.</p>
 <p>This document can be printed for reference by using the print command in the settings of any browser.</p>
 <p><br></br><h2>Owner and Data Controller</h2></p>
-<p>Omar Tanner PSC Ltd (England, United Kingdom)</p>
-<p><strong>Owner contact email:</strong>&nbsp;<a href="mailto:legal@modulepal.com">legal@modulepal.com</a></p>
+<p>Omar Tanner PSC Ltd (England, United Kingdom) (owner of 'ModulePal')</p>
+<p><strong>Owner contact email:</strong>&nbsp;<a href="mailto:omrtnnr@gmail.com">omrtnnr@gmail.com</a></p>
 <p><br></br><h2>Types of Data collected</h2></p>
 <p>Among the types of Personal Data that this Application collects, by itself or through third parties, there are: email addresses; user agents; IP addresses; University of Warwick Student Data.</p>
 <p>Complete details on each type of Personal Data collected are provided in the dedicated sections of this privacy policy or by specific explanation texts displayed prior to the Data collection.<br /> Personal Data may be freely provided by the User, or, in case of Usage Data, collected automatically when using this Application.<br /> Unless specified otherwise, all Data requested by this Application is mandatory and failure to provide this Data may make it impossible for this Application to provide its services. In cases where this Application specifically states that some Data is not mandatory, Users are free not to communicate this Data without consequences to the availability or the functioning of the Service.<br /> Users who are uncertain about which Personal Data is mandatory are welcome to contact the Owner.<br /> Any use of Cookies &ndash; or of other tracking tools &ndash; by this Application or by the owners of third-party services used by this Application serves the purpose of providing the Service required by the User, in addition to any other purposes described in the present document and in the Cookie Policy, if available.</p>
