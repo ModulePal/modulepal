@@ -3,6 +3,7 @@ package me.omartanner.modulepal.data.firebase.auth;
 import com.google.firebase.auth.*;
 import lombok.extern.slf4j.Slf4j;
 import me.omartanner.modulepal.data.firebase.db.FirebaseDbApi;
+import me.omartanner.modulepal.data.firebase.db.FirebaseDbException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -35,11 +36,18 @@ public class FirebaseAuthApi {
     }
 
     public void revokeAllAccessTokens(String uuid) throws FirebaseAuthException {
-        firebaseAuth.revokeRefreshTokens(uuid);
+        try {
+            firebaseAuth.revokeRefreshTokens(uuid);
+        }
+        catch (FirebaseAuthException e) {
+            if (!e.getErrorCode().equals("user-not-found")) { // skip not exists (e.g. access token from old firebase deployment)
+                throw e;
+            }
+        }
     }
 
     public String revokeAllAccessTokensAndObtainNew(String uuid) throws FirebaseAuthException {
-        firebaseAuth.revokeRefreshTokens(uuid);
+        revokeAllAccessTokens(uuid);
         return firebaseAuth.createCustomToken(uuid);
     }
 
