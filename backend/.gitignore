@@ -35,3 +35,6 @@ build/
 
 ### FIREBASE SERVICE ACCOUNT ###
 src/main/resources/firebase-service-account.json
+
+### HEROKU SUBREPO FOR DEPLOYMENT ###
+.git/
